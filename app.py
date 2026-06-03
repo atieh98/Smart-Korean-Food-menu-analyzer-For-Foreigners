@@ -25,7 +25,6 @@ analyzer = SmartMenuAnalyzer()
 
 # ⚙️ SIDEBAR: Mode Selector & Environment Status
 st.sidebar.header("⚙️ Application Settings")
-st.sidebar.success("Status: Connected to Conda (menu_analyzer_env)")
 
 # Pure English App Mode Selector
 app_mode = st.sidebar.radio(
@@ -33,7 +32,6 @@ app_mode = st.sidebar.radio(
     ["User Mode", "Developer Mode"]
 )
 
-st.sidebar.info("This system analyzes pixels in real-time, isolates text zones, and performs intelligent database parsing.")
 
 # Render Global Application Headers
 st.title("🌐 Smart Korean Food Menu Analyzer for Foreigners")
